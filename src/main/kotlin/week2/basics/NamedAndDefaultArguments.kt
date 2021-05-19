@@ -1,4 +1,4 @@
-package basics
+package week2.basics
 
 fun main() {
     //Named and default arguments, joinToString has a default value for some parameters,

@@ -1,4 +1,4 @@
-package basics
+package week2.basics
 
 fun main() {
     //It is possible to reassign a val variable type.
