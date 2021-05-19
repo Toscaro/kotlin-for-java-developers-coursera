@@ -1,4 +1,4 @@
-package week2.control_structures
+package study.week2.control_structures
 
 fun main() {
     whileAndDoWhile()

@@ -1,8 +1,4 @@
-package week2.control_structures
-
-import java.text.SimpleDateFormat
-import java.time.Instant
-import java.util.*
+package study.week2.control_structures
 
 fun main() {
     val c: Char = 'z'

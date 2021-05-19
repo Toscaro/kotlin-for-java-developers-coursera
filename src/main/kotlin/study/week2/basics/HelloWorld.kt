@@ -1,4 +1,4 @@
-package week2.basics
+package study.week2.basics
 
 fun main(args: Array<String>) {
     val name = "Kotlin"
