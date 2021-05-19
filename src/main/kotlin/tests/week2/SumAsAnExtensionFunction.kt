@@ -1,4 +1,4 @@
-package exercises.week2
+package tests.week2
 
 /**
  * Sum as an extension function.

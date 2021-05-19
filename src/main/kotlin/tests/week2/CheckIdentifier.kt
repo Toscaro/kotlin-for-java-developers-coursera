@@ -1,4 +1,4 @@
-package exercises.week2
+package tests.week2
 
 /**
  * Implement the function that checks whether a string is a valid identifier.
