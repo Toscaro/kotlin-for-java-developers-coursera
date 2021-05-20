@@ -15,6 +15,8 @@ fun main(args: Array<String>) {
     s3.isEmptyOrNull() eq false
 }
 
+fun String?.isEmptyOrNull() = this == null || this.isEmpty()
+
 infix fun <T> T.eq(other: T) {
     if (this == other) println("OK")
     else println("Error: $this != $other")
