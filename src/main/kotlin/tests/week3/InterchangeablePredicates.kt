@@ -1,12 +1,12 @@
 package tests.week3
 
-fun List<Int>.allNonZero() = all { TODO() }
-fun List<Int>.allNonZero1() = none { TODO() }
-fun List<Int>.allNonZero2() = any { TODO() }
+fun List<Int>.allNonZero() = all { int -> int != 0 }
+fun List<Int>.allNonZero1() = none { int -> int == 0 }
+fun List<Int>.allNonZero2() = !any { int -> int == 0 }
 
-fun List<Int>.containsZero() = any { TODO() }
-fun List<Int>.containsZero1() = all { TODO() }
-fun List<Int>.containsZero2() = none { TODO() }
+fun List<Int>.containsZero() = any { int -> int == 0 }
+fun List<Int>.containsZero1() = !all { int -> int != 0 }
+fun List<Int>.containsZero2() = !none { int -> int == 0 }
 
 /**
  * Interchangeable predicates
