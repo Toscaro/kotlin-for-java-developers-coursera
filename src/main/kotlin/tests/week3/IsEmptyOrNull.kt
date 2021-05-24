@@ -1,5 +1,7 @@
 package tests.week3
 
+import util.eq
+
 /**
  * isEmptyOrNull()
  *
@@ -16,8 +18,3 @@ fun main(args: Array<String>) {
 }
 
 fun String?.isEmptyOrNull() = this == null || this.isEmpty()
-
-infix fun <T> T.eq(other: T) {
-    if (this == other) println("OK")
-    else println("Error: $this != $other")
-}

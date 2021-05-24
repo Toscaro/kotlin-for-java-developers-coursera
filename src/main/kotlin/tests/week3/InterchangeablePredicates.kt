@@ -1,5 +1,7 @@
 package tests.week3
 
+import util.eq
+
 fun List<Int>.allNonZero() = all { int -> int != 0 }
 fun List<Int>.allNonZero1() = none { int -> int == 0 }
 fun List<Int>.allNonZero2() = !any { int -> int == 0 }

@@ -1,5 +1,7 @@
 package tests.week3
 
+import util.eq
+
 /**
  * Mastermind in a functional style
  *
