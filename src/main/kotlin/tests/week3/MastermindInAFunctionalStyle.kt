@@ -11,11 +11,11 @@ data class Evaluation(val rightPosition: Int, val wrongPosition: Int)
 
 fun evaluateGuess(secret: String, guess: String): Evaluation {
 
-    val rightPositions = secret.zip(guess).count { TODO() }
+    val rightPositions = secret.zip(guess).count { (secret, guess) -> secret == guess }
 
     val commonLetters = "ABCDEF".sumBy { ch ->
 
-        Math.min(secret.count { TODO() }, guess.count { TODO() })
+        Math.min(secret.count { ch == it }, guess.count { ch == it })
     }
     return Evaluation(rightPositions, commonLetters - rightPositions)
 }
