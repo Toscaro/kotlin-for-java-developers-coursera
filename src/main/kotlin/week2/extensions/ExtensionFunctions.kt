@@ -1,4 +1,4 @@
-package study.week2.extensions
+package week2.extensions
 
 fun String.lastChar() = get(length - 1)
 

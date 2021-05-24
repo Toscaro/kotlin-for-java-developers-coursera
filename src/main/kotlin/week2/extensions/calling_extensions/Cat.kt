@@ -1,4 +1,4 @@
-package study.week2.extensions.calling_extensions
+package week2.extensions.calling_extensions
 
 class Cat : Animal() {
     /**

@@ -1,4 +1,4 @@
-package study.week2.basics
+package week2.basics
 
 /**
  * Expression body in kotlin

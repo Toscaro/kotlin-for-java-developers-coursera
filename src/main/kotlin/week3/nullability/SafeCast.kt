@@ -1,4 +1,4 @@
-package study.week3.nullability
+package week3.nullability
 
 fun main() {
     var any: Any = "Any Type!"

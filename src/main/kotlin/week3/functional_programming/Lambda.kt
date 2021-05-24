@@ -1,4 +1,4 @@
-package study.week3.functional_programming
+package week3.functional_programming
 
 import java.awt.Button
 import java.awt.event.ActionListener

@@ -1,4 +1,4 @@
-package study.week3.nullability
+package week3.nullability
 
 fun main() {
     //We cannot assign a null value to this variable.

@@ -1,4 +1,4 @@
-package study.week2.extensions.calling_extensions
+package week2.extensions.calling_extensions
 
 fun Animal.foo() = "static ???"
 fun Dog.foo() = "static woof!"
