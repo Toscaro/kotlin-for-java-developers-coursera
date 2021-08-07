@@ -3,7 +3,11 @@ package week3.functional_programming
 import java.awt.Button
 import java.awt.event.ActionListener
 
-data class Animal(val name: String, val age: Int)
+data class Animal(val name: String, val age: Int) {
+    fun isOlder(minAge: Int) = age > minAge
+
+    fun getIsOlderPredicate() = ::isOlder
+}
 
 fun main() {
     val button = Button()
